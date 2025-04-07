@@ -11,7 +11,7 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>Formulario</title>
+    <title>Formulario de registro - Universidad de La Salle</title>
     <style>
         body {
             background: #f2f2f2;
@@ -57,6 +57,11 @@
             background-color: #dc3545;
         }
 
+        h2 {
+            text-align: center;
+            color: #003366;
+        }
+
         p {
             text-align: center;
             margin-top: 20px;
@@ -67,7 +72,7 @@
 <body>
 
     <form action="#" method="post">
-        <h2 style="text-align:center; color:#333;">Registro</h2>
+        <h2>Formulario de registro<br>Universidad de La Salle</h2>
         <input type="text" name="nombre" placeholder="Nombre" required>
         <input type="email" name="correo" placeholder="Correo" required>
         <input type="text" name="telefono" placeholder="Teléfono" required>
@@ -97,3 +102,4 @@
         }
     }
 ?>
+
